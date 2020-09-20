@@ -1,0 +1,11 @@
+Scraped Mars data from around the web using: Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
+
+Scraped NASA Mars News (https://mars.nasa.gov/news/) for first article title and teaser.  
+
+Scraped JPL Mars Space Images - Featured Image (https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars), auto-clicked button, concatenated url for full-sized image.
+
+Scraped Mars Facts (mars-facts.com) for the table containing facts about the planet including Diameter, Mass, etc., used pandas to convert to HTML table string.
+
+Scraped USGS Astrogeology site (https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars), auto-clicked name and full-sized image links, returned concatenated urls for full-sized images.  Appended and stored as dictionary.
+
+Used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped.
