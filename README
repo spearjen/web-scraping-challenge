@@ -9,3 +9,9 @@ Scraped Mars Facts (mars-facts.com) for the table containing facts about the pla
 Scraped USGS Astrogeology site (https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars), auto-clicked name and full-sized image links, returned concatenated urls for full-sized images.  Appended and stored as dictionary.
 
 Used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped.
+
+Images and articles are sourced with clickable links to source material.
+
+Click on hemisphere images or text to go to full-sized images.  
+
+All clicks open new tabs.
